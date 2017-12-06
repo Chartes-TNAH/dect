@@ -1,0 +1,22 @@
+<work xmlns="http://chs.harvard.edu/xmlns/cts"
+    groupUrn="urn:cts:froLit:jns135"
+    urn="urn:cts:froLit:jns135.jns5280"
+    xml:lang="fro"
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    >
+    <title xml:lang="fre">Perceval</title>
+    <title xml:lang="fre">Le conte du Graal</title>
+    <edition 
+        workUrn="urn:cts:frolit:jns135.jns5280" 
+        urn="urn:cts:froLit:jns135.jns5280.dect-fro1"
+        >
+        <label xml:lang="fre">Perceval (DECT)</label>
+        <description xml:lang="fre">
+            Balisage grammatical et sémantique du Perceval par DECT
+        </description>
+        <cpt:structured-metadata>
+            <dc:source>http://www.atilf.fr/dect/</dc:source>
+        </cpt:structured-metadata>
+    </edition>
+</work>
