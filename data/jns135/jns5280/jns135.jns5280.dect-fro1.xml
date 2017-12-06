@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/css" href="TexteDECT_TEI.css"?>
-<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TexteDECT_TEI.xsd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
 	<fileDesc>
 		<titleStmt>
@@ -45,6 +43,13 @@
 		</publicationStmt>
 	</fileDesc>
 	<encodingDesc>
+		<refsDecl n="CTS">
+			<cRefPattern n="vers"
+				matchPattern="(\w+)"
+				replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:l[@n='$1'])">
+				<p>This pointer pattern extracts book</p>
+			</cRefPattern>
+		</refsDecl>
 		<projectDesc>
 			<p>Dictionnaire Électronique de Chrétien de Troyes</p>
 		</projectDesc>
@@ -64,7 +69,7 @@ On peut les considérer comme semi-diplomatiques dans la mesure où la segmentatio
 	</encodingDesc>
 </teiHeader>
 <text>
-<body>
+<body n="urn:cts:froLit:jns135.jns5280.dect-fro1" xml:lang="fro">
 <pb n="361"/>
 <cb n="a"/>
 <l n="1"><w lemma="que2/3" type="pron/adv/rel/inter">Qui</w> <w lemma="petit" type="adj/adv/sn">petit</w> <w lemma="semer1" type="v">seme</w> <w lemma="petit" type="adj/adv/sn">petit</w> <w lemma="coillir" type="v">quialt</w>, </l>
